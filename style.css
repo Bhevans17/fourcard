@@ -62,3 +62,10 @@ header p {
 #card-four {
   border-top: 5px solid hsl(212, 86%, 64%);
 }
+
+@media only screen and (min-width: 780px) {
+  #cards-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+}
